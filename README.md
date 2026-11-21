@@ -1,41 +1,118 @@
 # Academia Hub — College Admission Management System
 
-A PHP and MySQL web application for college admissions. It includes a public college information site, student registration and application pages, and an administration area for reviewing applications, managing courses, and handling fees.
+A PHP and MySQL web application for college admissions. The project includes a public college website, student account and application pages, and an admin portal for managing courses, reviewing applications, and handling fees.
 
 ## Features
 
-- Public pages for courses, departments, notices, and contact enquiries
-- Student registration, login, profile, and admission application workflows
-- Admin dashboard and application review tools
-- Course, notice, and fee management
-- MySQL database schema in `database/schema.sql`
+- Public home, departments, courses, about, and contact pages
+- Student registration, login, dashboard, and profile
+- Online admission application and fee submission pages
+- Admin dashboard, registered user list, course management, and application review
+- MySQL schema in `database/schema.sql`
 
-## Requirements
+## Technology
 
-- XAMPP (Apache, PHP, and MariaDB/MySQL) or an equivalent local PHP/MySQL stack
-- PHP `mysqli` extension enabled
+- PHP and MySQL/MariaDB
+- HTML, CSS, JavaScript, Bootstrap, and bundled frontend assets
+- XAMPP for local development
 
 ## Local setup
 
-1. Clone this repository into your web server's document root (for XAMPP, `htdocs`).
+1. Clone the repository into your web server document root (for XAMPP, `htdocs`).
 2. Create a MySQL database named `camsdb` in phpMyAdmin.
 3. Import `database/schema.sql` to create the tables.
-4. Review the database settings in `cams/includes/dbconnection.php`, `cams/admin/includes/dbconnection.php`, and `cams/user/includes/dbconnection.php` for your local MySQL account.
-5. Start Apache and MySQL, then open `http://localhost/cams/`.
-6. Open the admin area at `http://localhost/cams/admin/`.
+4. Check the database settings in `cams/includes/dbconnection.php`, `cams/admin/includes/dbconnection.php`, and `cams/user/includes/dbconnection.php`.
+5. Start Apache and MySQL, then open `http://localhost/Academiahub/cams2/cams/` (or the matching path for your install).
+6. Admin pages are under `/cams/admin/`; student pages are under `/cams/user/`.
 
-Create your own administrator and student accounts for local development. Do not reuse credentials from sample project files.
+Create your own local admin and student accounts. This repository does not include sample login credentials.
 
-## Project layout
+## Screenshots
 
-- `cams/` — PHP application, assets, admin and student areas
-- `database/schema.sql` — schema-only database setup (no applicant records or passwords)
-- `screenshots/` — repository setup screenshot
+The screenshots below show the project running locally with fictional demo records.
 
-## Screenshot
+### Public site
 
-![GitHub repository](screenshots/github-repository.jpg)
+#### Home page
+
+![Academia Hub home page](screenshots/home.png)
+
+#### Departments
+
+![Departments](screenshots/departments.png)
+
+#### Course catalog
+
+![Course catalog](screenshots/courses.png)
+
+#### About
+
+![About Academia Hub](screenshots/about.png)
+
+#### Contact
+
+![Contact page](screenshots/contact.png)
+
+### Student portal
+
+#### Student login
+
+![Student login](screenshots/student-login.png)
+
+#### Student registration
+
+![Student registration](screenshots/student-signup.png)
+
+#### Student dashboard
+
+![Student dashboard](screenshots/student-dashboard.png)
+
+#### Admission application form
+
+![Admission application form](screenshots/student-admission-form.png)
+
+#### Fee submission
+
+![Fee submission](screenshots/student-fees.png)
+
+#### Student profile
+
+![Student profile](screenshots/student-profile.png)
+
+### Admin portal
+
+#### Admin login
+
+![Admin login](screenshots/admin-login.png)
+
+#### Admin dashboard
+
+![Admin dashboard](screenshots/admin-dashboard.png)
+
+#### Applications
+
+![Application list](screenshots/admin-applications.png)
+
+#### Application review
+
+![Application review form](screenshots/admin-application-detail.png)
+
+#### Pending applications
+
+![Pending applications](screenshots/admin-pending-applications.png)
+
+#### Course management
+
+![Course management](screenshots/admin-courses.png)
+
+#### Registered users
+
+![Registered users](screenshots/admin-registered-users.png)
+
+#### Reports
+
+![Application reports](screenshots/admin-reports.png)
 
 ## Privacy
 
-Database dumps containing personal records and password hashes, and student-uploaded documents, are intentionally excluded. Use fictional data for local development and keep uploaded documents and credentials out of source control.
+Database dumps with personal records and password hashes, and student-uploaded documents, are excluded from this repository. The screenshot data is fictional. Use fictional records for local development and do not commit private applicant documents or credentials.
