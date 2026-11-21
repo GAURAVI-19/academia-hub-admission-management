@@ -24,17 +24,18 @@ A PHP and MySQL web application for college admissions. It includes a public col
 5. Start Apache and MySQL, then open `http://localhost/cams/`.
 6. Open the admin area at `http://localhost/cams/admin/`.
 
-Create your own administrator and student accounts through the application's registration and database setup flow. Do not reuse credentials from sample project files.
+Create your own administrator and student accounts for local development. Do not reuse credentials from sample project files.
 
 ## Project layout
 
 - `cams/` — PHP application, assets, admin and student areas
 - `database/schema.sql` — schema-only database setup (no applicant records or passwords)
+- `screenshots/` — repository setup screenshot
 
-## Screenshots
+## Screenshot
 
-Screenshots of the running application will be added here.
+![GitHub repository](screenshots/github-repository.jpg)
 
 ## Privacy
 
-Database dumps containing real or sample personal records, password hashes, and student-uploaded documents are intentionally excluded. Use fictional data for local development and keep uploaded documents and credentials out of source control.
+Database dumps containing personal records and password hashes, and student-uploaded documents, are intentionally excluded. Use fictional data for local development and keep uploaded documents and credentials out of source control.
