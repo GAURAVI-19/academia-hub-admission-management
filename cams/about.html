@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0050b9c8a5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- <!............Header Section...................> -->
+    <section class="sub-header">
+        <nav>
+            <a href="index.php"><img src="Images/logo_file/png/hub_logo.png"></a>
+            <div class="nav-links"id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.php">HOME</a></li>
+                    <!-- <li><a href="departments.html">DEPARTMENTS</a></li> -->
+                    <li><a href="course.php">DEPARTMENTS</a></li>
+                    <li class="dropdown1">
+                        <a href="" class="dropbtn1">ACADEMICS</a>
+                        <div class="dropdown1-content">
+                            <a href="academics/ACademic/syllabus.pdf" target="_blank">Syllabus</a>
+                            <a href="academics/ACademic/academic-calender23-24.pdf" target="_blank">Academic Calender</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">ADMISSION</a>
+                        <div class="dropdown-content">
+                            <a href="#">Admission Structure</a>
+                            <a href="https://antiragging.in/affidavit_affiliated_form.php">Anti Ragging Form</a>
+                            <a href="https://online.msbte.co.in/msbte23/index.php?act=exam_login">MSBTE Exam Form</a>
+                            <a href="https://csmss.org/admin/uploads/student/file/56-student.pdf">Registration Form</a>
+                            <!-- Add more admission links as needed -->
+                        </div>
+                    </li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li>
+                        <a href="admin/login.php" class="dropbtn">ADMIN</a>
+                    </li>
+                    <li>
+                        <a href="user/login.php" class="dropbtn">USER</a>
+                    </li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <h1>About us</h1>
+    </section>
+     
+<!........ about us content ...........>
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the India's largest university</h1>
+            <p>At MSBTE, we are committed to providing quality education that equips students with the knowledge, skills, and practical experience necessary to excel in their chosen fields. Our comprehensive range of diploma and post-diploma programs cover a diverse array of disciplines, including engineering, pharmacy, architecture, and more, ensuring that students have ample opportunities to pursue their academic interests and career aspirations.
+
+                With a strong emphasis on industry relevance and practical learning, MSBTE collaborates <br> closely with leading industries and employers to design curriculum, offer hands-on training, and facilitate internships and placements <br>for our students. This industry-oriented approach ensures that our graduates are well-prepared to meet the demands of the ever-<br>evolving global workforce.</p>
+            <a href="https://msbte.org.in/" target="_blank" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+      
+    </div>
+</section>
+
+<!-- <!...........Footer.....> -->
+
+<!-- <section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est<br>sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-github"></i>
+    </div> -->
+   <center><p style="padding-bottom: 20px;">Academia Hub Team</p></center> 
+<!-- </section> -->
+
+<!-- <!...........Javascript for Toggle Menu.............> -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+    
+</body>
+</html>

@@ -1,0 +1,10 @@
+/camsdb.sql
+/SQL File/
+/cams/user/userdocs/
+/cams/user/userimages/
+/cams/uploads/
+/cams/admin/uploads/
+.env
+*.log
+.DS_Store
+Thumbs.db

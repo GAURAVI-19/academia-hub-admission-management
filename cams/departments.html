@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia Hub</title>
+    <link rel="stylesheet" href="departments.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0050b9c8a5.js" crossorigin="anonymous"></script>
+</head>
+<body background="Images/dep.png" class="depimg">
+<!-- <!............Header Section...................> -->
+    <section class="sub-header">
+        <nav>
+            <a href="index.php"><img src="Images/logo_file/png/hub_logo.png" height="50px" width="15%"></a>
+            <div class="nav-links"id="navLinks">
+                <!-- <i class="fa-solid " onclick="hideMenu()"></i> -->
+                <ul>
+                    <li><a href="index.php">HOME</a></li>
+                    <li><a href="departments.html">DEPARTMENTS</a></li>
+                    <li><a href="course.php">COURSES</a></li>
+                    <li class="dropdown1">
+                        <a href="" class="dropbtn1">ACADEMICS</a>
+                        <div class="dropdown1-content">
+                            <a href="academics/ACademic/syllabus.pdf" target="_blank">Syllabus</a>
+                            <a href="academics/ACademic/academic-calender23-24.pdf" target="_blank">Academic Calender</a> 
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">ADMISSION</a>
+                        <div class="dropdown-content">
+                            <a href="#">Admission Structure</a>
+                            <a href="https://antiragging.in/affidavit_affiliated_form.php">Anti Ragging Form</a>
+                            <a href="https://online.msbte.co.in/msbte23/index.php?act=exam_login">MSBTE Exam Form</a>
+                            <a href="https://csmss.org/admin/uploads/student/file/56-student.pdf">Registration Form</a>
+                            <!-- Add more admission links as needed -->
+                        </div>
+                    </li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li>
+                        <a href="admin/login.php" class="dropbtn">ADMIN</a>
+                    </li>
+                    <li>
+                        <a href="user/login.php" class="dropbtn">USER</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- <i class="fa-solid fa-bars" onclick="showMenu()"></i> -->
+        </nav>
+       <h1>Our Departments</h1>
+    </section>
+
+<!-- <!............ Course ............> -->
+
+<!-- <section class="course"> -->
+    <section class="department" >
+    <!-- <h1>Departments</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
+    <div class="drow">
+        <div class="department-col"><a href="" style="text-decoration: none; ">
+            <h3>Computer Department</h3>
+            <img src="Images/co.jpeg" alt="" height="200px" >
+            <p> the study of computers and computational systems. It is a broad field which includes everything from the algorithms that make up software to how software interacts with hardware to how well software is developed and designed.</p>
+        </a></div>
+        <div class="department-col"><a href="" style="text-decoration: none; ">
+            <h3>Electrical Department</h3>
+            <img src="Images/electrical.jpg" alt="" height="200px" >
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam animi, quas hic veritatis alias placeat consectetur reiciendis iste, culpa sapiente quis sint dolorum possimus quos aut, ipsa perspiciatis eius magni?</p>
+        </a></div>
+        <div class="department-col"><a href="" style="text-decoration: none; ">
+            <h3>Artificial Department</h3>
+            <img src="Images/ai.jpg" alt="" height="200px" >
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam animi, quas hic veritatis alias placeat consectetur reiciendis iste, culpa sapiente quis sint dolorum possimus quos aut, ipsa perspiciatis eius magni?</p>
+        </a></div>
+    </div>
+</section>
+
+<!-- <!............. facilities ...........> -->
+<!-- <section class="facilities">
+    <h1>Our facilities</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="Images/library.png">
+            <h3>World Class Library</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pellentesque aliquet turpis nulla</p>
+        </div>
+        <div class="facilities-col">
+            <img src="Images/basketball.png">
+            <h3>Largest Play Ground</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pellentesque aliquet turpis nulla</p>
+        </div>
+        <div class="facilities-col">
+            <img src="Images/cafeteria.png">
+            <h3>Tasty and Healthy Food</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pellentesque aliquet turpis nulla</p>
+        </div>
+    </div>
+</section>
+     
+
+<!...........Footer.....>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est<br>sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-github"></i>
+    </div>
+    <p>Made with <i class="fa-solid fa-heart"></i> by Deepanshi Sharma</p>
+</section>-->
+
+<!-- <!...........Javascript for Toggle Menu.............> -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script> 
+
+    
+</body>
+</html>

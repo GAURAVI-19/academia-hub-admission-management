@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia Hub</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0050b9c8a5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- <!............Header Section...................> -->
+    <section class="sub-header">
+        <nav>
+            <a href="index.php"><img src="Images/logo_file/png/hub_logo.png"></a>
+            <div class="nav-links"id="navLinks">
+                <!-- <i class="fa-solid fa-xmark" onclick="hideMenu()"></i> -->
+                <ul>
+                    <li><a href="index.php">HOME</a></li>
+                    <!-- <li><a href="departments.html">DEPARTMENTS</a></li> -->
+                    <li><a href="course.php">DEPARTMENTS</a></li>
+                    <li class="dropdown1">
+                        <a href="" class="dropbtn1">ACADEMICS</a>
+                        <div class="dropdown1-content">
+                            <a href="academics/ACademic/syllabus.pdf" target="_blank">Syllabus</a>
+                            <a href="academics/ACademic/academic-calender23-24.pdf" target="_blank">Academic Calender</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">ADMISSION</a>
+                        <div class="dropdown-content">
+                            <a href="#">Admission Structure</a>
+                            <a href="https://antiragging.in/affidavit_affiliated_form.php">Anti Ragging Form</a>
+                            <a href="https://online.msbte.co.in/msbte23/index.php?act=exam_login">MSBTE Exam Form</a>
+                            <a href="https://csmss.org/admin/uploads/student/file/56-student.pdf">Registration Form</a>
+                            <!-- Add more admission links as needed -->
+                        </div>
+                    </li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li>
+                        <a href="admin/login.php" class="dropbtn">ADMIN</a>
+                    </li>
+                    <li>
+                        <a href="user/login.php" class="dropbtn">USER</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- <i class="fa-solid fa-bars" onclick="showMenu()"></i> -->
+        </nav>
+       <h1 style="text-align: center;">Contact Us</h1>
+    </section>
+
+<!-- <!.............. contact us ................> -->
+
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3753.2255030790757!2d75.2883401!3d19.830409200000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdb98e33436a7d3%3A0xff6fb4310e86be35!2sCSMSS%20College%20of%20Polytechnic!5e0!3m2!1sen!2sin!4v1708616756310!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa-solid fa-house"></i>
+                <span>
+                    <h5>Academia Hub, CHH.Sambhajinagar</h5>
+                    <P>Maharashtra, India </P>
+                </span>
+            </div>
+            <div>
+                <i class="fa-solid fa-phone"></i>
+                <span>
+                    <h5>+91 9356133422</h5>
+                    <P>Monday to saturday, 10AM to 5PM</P>
+                </span>
+            </div>
+            <div>
+                <i class="fa-solid fa-envelope"></i>
+                <span>
+                    <h5>academiahub@gmail.com</h5>
+                    <P>Email us your query</P>
+                </span>
+            </div>
+        </div>
+    </div>
+</section>
+     
+
+<!-- <!...........Footer.....> -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>At Academia Hub, we cultivate leaders through innovation, shaping futures. Join us in our commitment to excellence and growth.<br> Welcome to a community dedicated to empowering minds.</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-github"></i>
+    </div>
+    <p>Academia Hub Team</p>
+</section>
+
+<!-- <!...........Javascript for Toggle Menu.............> -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+    
+</body>
+</html>
